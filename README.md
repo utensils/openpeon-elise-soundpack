@@ -18,21 +18,21 @@ If you spend hours a day in Claudette, the audio character of your notifications
 
 ### Manual (clone)
 
-Claudette stores sound packs in `~/.claudette/packs/` and picks up new packs automatically — no restart needed. The directory name **must** match the manifest's `name` field (`claudette-openpeon-elise`), otherwise Claudette's pack-management UI won't be able to find or remove it later.
+Claudette stores sound packs in `~/.claudette/packs/` and picks up new packs automatically — no restart needed. The directory name **must** match the manifest's `name` field (`openpeon-elise-soundpack`), otherwise Claudette's pack-management UI won't be able to find or remove it later.
 
 **macOS / Linux:**
 
 ```bash
 mkdir -p ~/.claudette/packs
-git clone https://github.com/utensils/claudette-openpeon-elise.git \
-  ~/.claudette/packs/claudette-openpeon-elise
+git clone https://github.com/utensils/openpeon-elise-soundpack.git \
+  ~/.claudette/packs/openpeon-elise-soundpack
 ```
 
 **Windows (PowerShell):**
 
 ```powershell
-git clone https://github.com/utensils/claudette-openpeon-elise.git `
-  "$env:USERPROFILE\.claudette\packs\claudette-openpeon-elise"
+git clone https://github.com/utensils/openpeon-elise-soundpack.git `
+  "$env:USERPROFILE\.claudette\packs\openpeon-elise-soundpack"
 ```
 
 Then open **Settings → Notifications → Sound Packs** in Claudette and select **Elise** as your active pack.
