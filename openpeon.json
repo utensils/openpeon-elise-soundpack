@@ -1,0 +1,109 @@
+{
+  "cesp_version": "1.0",
+  "name": "claudette-openpeon-elise",
+  "display_name": "Elise",
+  "version": "1.0.0",
+  "categories": {
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/input_required_01.mp3",
+          "label": "I have a question for you."
+        },
+        {
+          "file": "sounds/input_required_02.mp3",
+          "label": "Could you take a look at this?"
+        },
+        {
+          "file": "sounds/input_required_03.mp3",
+          "label": "Got a sec? I need your input."
+        },
+        {
+          "file": "sounds/input_required_04.mp3",
+          "label": "Quick question when you're ready."
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/task_acknowledge_01.mp3",
+          "label": "Here's the plan — mind reviewing it?"
+        },
+        {
+          "file": "sounds/task_acknowledge_02.mp3",
+          "label": "I've put together a plan for you."
+        },
+        {
+          "file": "sounds/task_acknowledge_03.mp3",
+          "label": "Ready when you are — plan's drafted."
+        },
+        {
+          "file": "sounds/task_acknowledge_04.mp3",
+          "label": "Take a look at my plan when you have a moment."
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/task_complete_01.mp3",
+          "label": "All done!"
+        },
+        {
+          "file": "sounds/task_complete_02.mp3",
+          "label": "Task complete."
+        },
+        {
+          "file": "sounds/task_complete_03.mp3",
+          "label": "Finished — back to you."
+        },
+        {
+          "file": "sounds/task_complete_04.mp3",
+          "label": "Wrapped it up."
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/task_error_01.mp3",
+          "label": "Hit a snag — could use your help."
+        },
+        {
+          "file": "sounds/task_error_02.mp3",
+          "label": "Something went wrong."
+        },
+        {
+          "file": "sounds/task_error_03.mp3",
+          "label": "Ran into a problem."
+        },
+        {
+          "file": "sounds/task_error_04.mp3",
+          "label": "Sorry, that didn't work."
+        }
+      ]
+    },
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/session_start_01.mp3",
+          "label": "Ready when you are."
+        },
+        {
+          "file": "sounds/session_start_02.mp3",
+          "label": "Let's get started."
+        },
+        {
+          "file": "sounds/session_start_03.mp3",
+          "label": "Hi — what are we working on?"
+        },
+        {
+          "file": "sounds/session_start_04.mp3",
+          "label": "Standing by."
+        }
+      ]
+    }
+  },
+  "category_aliases": {}
+}
