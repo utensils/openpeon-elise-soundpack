@@ -103,6 +103,26 @@
           "label": "Standing by."
         }
       ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/resource_limit_01.mp3",
+          "label": "We've hit the limit."
+        },
+        {
+          "file": "sounds/resource_limit_02.mp3",
+          "label": "Out of headroom for now."
+        },
+        {
+          "file": "sounds/resource_limit_03.mp3",
+          "label": "Quota's reached — taking a breather."
+        },
+        {
+          "file": "sounds/resource_limit_04.mp3",
+          "label": "That's the limit on this one."
+        }
+      ]
     }
   },
   "category_aliases": {}
